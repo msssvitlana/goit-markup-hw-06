@@ -379,7 +379,7 @@ button {
     max-width: 768px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .main-page {
     padding: 112px 0;
     background-image: linear-gradient(
@@ -401,7 +401,7 @@ button {
     max-width: 1440px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .main-page {
     padding: 188px 0;
     background-image: linear-gradient(
